@@ -1,0 +1,312 @@
+* {
+  font-family: "League Spartan", sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding-inline-start: 0;
+}
+li {
+  list-style: none;
+}
+main {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+.first-block {
+  flex-wrap: wrap;
+  display: flex;
+  background: #f8f8f8;
+}
+.desc-first {
+  margin-left: 133px;
+  margin-bottom: 211px;
+  max-width: 659px;
+}
+.main-model {
+  margin: 100px 0 53px 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 186%;
+  color: #161515;
+}
+.main-title {
+  margin: 0 0 43px 0;
+  font-weight: 300;
+  font-size: 250px;
+  line-height: 230px;
+  color: #272727;
+}
+.main-desc {
+  margin: 0 0 61px 0;
+  max-width: 575px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+  color: #161515;
+}
+.btn-buy {
+  padding: auto 0;
+  display: inline-block;
+  padding: 26px 74px 27px 73px;
+  max-width: 278px;
+  background: #161515;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.price {
+  display: inline-flex;
+  align-items: center;
+  max-width: 143px;
+  background: #ffffff;
+  box-shadow: 0px 0px 28px rgba(214, 214, 214, 0.25);
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 186%;
+  text-align: center;
+  color: #272727;
+  padding: 11px 27px;
+}
+.first-watch {
+  display: flex;
+  margin: 0 230px 219px 30px;
+}
+.info-second {
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 186%;
+  text-align: center;
+  color: #000000;
+}
+.heading-second {
+  margin: 0;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 112.5%;
+  text-align: center;
+  color: #000000;
+}
+.second-watch {
+  display: flex;
+  margin-inline: auto;
+  padding: 110px 60px 110px 71px;
+  max-width: 417px;
+  background: #f8f8f8;
+}
+.model-second {
+  margin: 67px 0 17px 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+.desc-second {
+  margin: 0;
+  margin-inline: auto;
+  max-width: 532px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+  color: #161515;
+}
+.third-watch {
+  margin-top: 85px;
+  display: flex;
+  margin-inline: auto;
+  padding: 65px 2px 65px 2px;
+  max-width: 496px;
+  background: #f8f8f8;
+}
+.model-third {
+  padding-top: 67px;
+  padding-bottom: 17px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  text-align: center;
+  color: #161515;
+}
+.desc-third {
+  margin-inline: auto;
+  max-width: 510px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+  text-align: center;
+  color: #161515;
+}
+.footer-name {
+  margin-top: 59px;
+  margin-bottom: 9px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 186%;
+  text-align: center;
+  color: #161515;
+  position: relative;
+}
+.footer-name::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  width: calc(100% - 2px);
+  height: 2px;
+  border: 1px solid #707070;
+  transition: 0.7s;
+  max-width: 178.03px;
+  max-height: 0px;
+  transform: translateX(-50%);
+}
+.footer-name:hover::after {
+  max-width: 254px;
+}
+.desc-footer {
+  margin-inline: auto;
+  max-width: 515px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 170%;
+  text-align: center;
+  color: #161515;
+  margin-bottom: 112px;
+}
+.footer-link {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170%;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #bb8b5d;
+}
+@media screen and (max-width: 768px) {
+  .main,
+  .second-watch,
+  .third-watch {
+    width: 100%;
+  }
+  .desc-first {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .main-model {
+    margin: 50px 0 21px 0;
+  }
+  .main-model,
+  .info-second,
+  .desc-footer,
+  .footer-link {
+    font-size: 20px;
+  }
+  .main-title {
+    font-size: 200px;
+  }
+  .main-desc {
+    font-size: 28px;
+  }
+  .first-watch {
+    width: 60%;
+    margin-inline: auto;
+    margin-bottom: 20px;
+  }
+  .price {
+    margin-top: 10px;
+  }
+  .desc-second,
+  .desc-third,
+  .model-second,
+  .model-third,
+  .footer-name {
+    font-size: 30px;
+  }
+  .heading-second {
+    font-size: 68px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main,
+  .second-watch {
+    width: 70%;
+  }
+  .third-watch {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .desc-first {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .main-model {
+    font-size: 18px;
+    margin: 25px 0 10px 0;
+  }
+  .main-model,
+  .info-second,
+  .desc-footer,
+  .footer-link {
+    font-size: 18px;
+  }
+  .main-title {
+    margin-bottom: 0;
+    font-size: 120px;
+  }
+  .main-desc {
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+  .first-watch {
+    margin: 0;
+    width: 50%;
+  }
+  .btn-buy {
+    padding: 16.25px 46.25px 16.875px 45.625px;
+    max-width: 173.75px;
+    font-size: 20px;
+  }
+  .price {
+    display: block;
+    margin-top: 5px;
+    max-width: 80.48px;
+    font-size: 18px;
+    padding: 6.19px 15.19px;
+  }
+  .desc-second,
+  .desc-third {
+    font-size: 25px;
+  }
+  .desc-third {
+    font-size: 25px;
+    margin-top: 0;
+    text-align: inherit;
+  }
+  .model-second {
+    margin-top: 23px;
+    font-size: 25px;
+    margin-bottom: 7.5px;
+  }
+  .model-third {
+    font-size: 25px;
+    margin-bottom: 7.5px;
+  }
+  .footer-name {
+    margin-top: 0;
+    font-size: 25px;
+  }
+  .heading-second {
+    font-size: 60px;
+  }
+  .desc-footer {
+    margin-bottom: 0;
+  }
+}
